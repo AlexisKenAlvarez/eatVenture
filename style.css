@@ -1,0 +1,123 @@
+.design{
+    position: absolute;
+    left: 14.5%;
+    margin: auto;
+    margin-top: 60px;
+    width: 1250px;
+    border: 10px solid white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: burlywood;
+}
+.center{
+    text-align: center;
+}
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Portrait One', cursive;
+    text-decoration:double;
+}
+p {
+    font-family: monospace;
+    font-size: 20px;
+}
+label {
+    font-family: monospace;
+    font-size: 20px;
+}
+button {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+}
+.checkbox {
+    text-align: left;
+    margin-left: 43.5%;
+    color: white;
+}
+.smaller-image{
+    height: 250px;
+    width: 450px;
+    border-style: dashed;
+    border-width: 10px;
+    color: white;
+}
+.hellocharmie{
+    width: 100px;
+    border-radius: 50%;
+    border-width: 5px;
+}
+#burger-left {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    width: 350px;
+    height: 450px;
+}
+#burger-right {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 350px;
+    height: 450px;
+}
+#sbutton{
+    color: white;
+    background-color: grey;
+}
+#charmy {
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    top: 20px;
+    left: 550px;
+}
+
+body{
+    background-image: url(img/latticegt.png);
+    background-repeat: repeat;
+    background-size: 80px;
+}
+@media(max-width: 1600px){
+    .design{
+        position: absolute;
+        left: 14.5%;
+        margin: auto;
+        margin-top: 60px;
+        width: 1000px;
+        height: 600px;
+        border: 10px solid white;
+        padding: 1px;
+        border-radius: 100px;
+        background-color: burlywood;
+    }
+    #burger-right {
+        position: absolute;
+        top: 4%;
+        right: 40px;
+        width: 250px;
+        height: 300px;
+    }
+    #charmy {
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        top: 0%;
+        left: 39.5%;
+    }
+    .smaller-image{
+        height: 130px;
+        width: 250px;
+        border-style: dashed;
+        border-width: 10px;
+        color: white;
+    }
+    #burger-left {
+        position: absolute;
+        top: 4%;
+        left: 40px;
+        width: 250px;
+        height: 300px;
+    }
+}

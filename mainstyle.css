@@ -1,0 +1,1310 @@
+.font {
+    position: fixed;
+    font-family: 'Portrait One', cursive;
+    font-size: 30px;
+    color: white;
+    top: -8px;
+    left: 90px;
+    z-index: 2;
+}
+.container-intro {
+    margin-left: -10px;
+    margin-top: 60px;
+    margin-right: -8px;
+    height: 640px;
+    width: 2000;
+    max-width: 100%;
+    z-index: 1;
+    background-image: url(img/AeroicCROP.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+.header{
+    position: fixed;
+    padding: 20px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    z-index: 1;
+}
+#cycling {
+    position: fixed;
+    width: 55px;
+    top: 13px;
+    left: 290px;
+    border: 2px solid white;
+    border-radius: 100%;
+
+}
+#horizontal {
+    position: fixed;
+    width: 55px;
+    height: 70px;
+    top: 10px;
+    left: 254px;
+}
+#eat {
+    position: fixed;
+    top: -25px;
+    left: 210px;
+}
+#venture {
+    position: fixed;
+    top: 10px;
+    left: 80px;
+}
+
+.info {
+    background-color: #F5F5DC;
+    padding: 400px;
+    margin-top: 500px;
+
+
+}
+.h1-b {
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-left: 13.4%;
+    margin-top: -700px;
+
+}
+.bio {
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-left: 13.4%;
+    margin-top: 75px;
+    text-align: left;
+    font-size: 35px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F5F5DC;
+    overflow-x: hidden;
+}
+.container {
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-top: 820px;
+    max-width: 100%;
+    height: 550px;
+    border: 10px solid #F5F5DC;
+    z-index: 1;
+    background-color: #F5F5DC;
+    
+}
+iframe {
+    text-align: right;
+    margin-left: 50%;
+    margin-top: -1000px;
+    margin-bottom: 50px;
+}
+
+.subBio{
+    text-align: justify;
+    opacity: 0.6;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 13.4%;
+    line-height: 27px;
+    margin-right: 50%;
+}
+.container-black {
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -700px;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.food-tour {
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    word-spacing: 10px;
+    letter-spacing: 16px;
+
+}
+.food-meaning {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    font-weight: 200;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.twintext {
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    letter-spacing: 25px;
+    padding: 10px;
+    margin-left: 17%;
+    margin-right: 17%;
+    opacity: 0.5;
+    text-decoration: none;
+    
+}
+a {
+    text-decoration: none;
+}
+h1 a {
+    color: white;
+}
+.container-places {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: -149px;
+    width: 100%;
+    height: 1939px; 
+    background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+
+}
+.popular {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: black;  
+    opacity: 0.5;
+    margin-top: 90px;
+    font-size: 50px;
+    margin-left: 14%;
+    margin-right: 14%;
+    letter-spacing: 10px;
+    
+}
+.places-bio {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 22px;
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 0.5;   
+}
+.twintext:hover {
+    color: black !important;
+    background-color: #F5F5DC;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+
+}
+#decor:hover {
+    color: black;
+}
+iframe:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+#logout {
+    text-decoration: none;
+    position: fixed;
+    right: 10%;
+    top: -1.8px;
+    padding: 10px, 30px, 10px, 30px;
+    width: 130px;
+    height: 92px;
+    font-size: 17px;
+    display: block;
+    background-color: burlywood;
+    border: none;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    cursor:pointer;
+}
+#logout:hover {
+    background-color: #D2B48C;
+    transition-duration: 0.4s;
+    color: #A0522D;
+    border-top: 8px solid #A0522D;
+    
+}
+#logout:active {
+    transform: scale(0.9);
+    border: none;
+}
+button:focus{
+    outline: 0;
+}
+.container-inside-p1{
+    margin-top: 20px;
+    width: 70%;
+    height: 470px; 
+    background: none;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+
+}
+.container-inside-p2{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    width: 70%;
+    height: 470px; 
+    background: none;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    margin: auto;
+    text-align: center;
+}
+.container-inside-p3{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    text-align: center;
+    background: none;
+    height: 600px;
+    margin-top: 475px;
+    font-family: 'Bree Serif', serif;
+}
+.text-container {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    background: none;
+    height: 100px;
+    margin-top: -120px;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#fantasy {
+    height: 255px;
+    width: 450px;
+    box-shadow: 20px 20px burlywood;
+}
+#twin-self {
+    width: 450px;
+    box-shadow: 20px 20px burlywood;
+}
+#peoples {
+    width: 450px;
+    box-shadow: 20px 20px burlywood;
+}
+#kamay {
+    width: 450px;
+    height: 255px;
+    box-shadow: 20px 20px burlywood;
+}
+#sga {
+    width: 450px;
+    box-shadow: 20px 20px burlywood;
+}
+#malibic{
+    width: 450px;
+    box-shadow: 20px 20px burlywood;
+}
+
+
+.box1{
+    text-align: center;
+    flex: 1;
+}
+.box2{
+    text-align: center;
+    flex: 1;
+}
+.box3{
+    text-align: center;
+    flex: 1;
+}
+.box4{
+    flex: 1;
+    text-align: center;
+}
+.box5 {
+    flex: 1;
+
+}
+.box6 {
+    flex: 1;
+}
+.opacity {
+    opacity: 0.5;
+    
+}
+.fantasy-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+    
+}
+.twin-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.people-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.kamay-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.malibic-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.sga-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.clickable {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.5;
+    font-family: sans-serif;
+    
+}
+.box1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box5:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box6:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.container-lomi {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 1790px;
+    width: 100%;
+    height: 728px; 
+    background-image: url(img/lomiC.jpg.png);   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.container-food {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 2500px;
+    width: 100%;
+    background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+.food-container1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.food-container2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 130px;
+}
+.food1{
+    flex: 1;
+    margin: auto;
+    margin-left: 25%;
+    margin-right: 20%;
+    text-align: center;
+}
+.food2 {
+    flex: 1;
+    margin: auto;
+    margin-right: 25%;
+    text-align: center;
+}
+.food3 {
+    flex: 1;
+    margin: auto;
+    margin-left: 25%;
+    text-align: center;
+    margin-right: 20%;
+}
+.food4 {
+    flex: 1;
+    margin: auto;
+    margin-right: 25%;
+    text-align: center;
+}
+#tapsi {
+    width: 450px;
+    margin: auto;
+    box-shadow: 20px 20px burlywood;
+}
+#lomi {
+    width: 430px;
+    margin: auto;
+    box-shadow: 20px 20px burlywood;
+}
+#pares {
+    width: 450px;
+    height: 370px;
+    margin: auto;
+    box-shadow: 20px 20px burlywood;
+}
+#siomairice {
+    width: 450px;
+    height: 370px;
+    box-shadow: 20px 20px burlywood;
+}
+.tapsi-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.lomi-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.pares-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.siomairice-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.food1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.food2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.food3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.food4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.footer {
+    position: absolute;
+    top: 6200px;
+    bottom: 0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    background-color: burlywood;
+}
+#eatf {
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    left: 560px;
+    top: -25px;
+}
+#venturef {
+    position: absolute;
+    top: 30px;
+    font-size: 70px;
+    color: white;
+    left: 260px;
+}
+#blackf {
+    position: absolute;
+    height: 150px;
+    top: 40px;
+    left: 630px;
+}
+#blackf2 {
+    position: absolute;
+    height: 150px;
+    width: 20px;
+    top: 40px;
+    left: 688px;
+}
+.eattf {
+    margin-top: 0px;
+    margin-left: 260px;
+}
+#divider {
+    margin-top: 250px;
+    color: silver;
+}
+.terms {
+    margin-top: -35px;
+    text-align: right;
+    margin-right: 200px;
+    font-size: 10px;
+}
+.facebook {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-top: -190px;
+    margin-left: 70%;
+    margin-right: 10%;
+}
+#fb {
+    width: 70px;
+    margin-top: 5px;
+}
+.facebook:hover {
+    background: rgba(255,255,255, 0.5);
+    transition-duration: 0.4s;
+    border-radius: 100%;
+}
+.youtube {
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 75%;
+    margin-right: 10%;
+}
+#yt {
+    width: 70px;
+}
+.youtube:hover {
+    background: rgba(255,255,255, 0.5);
+    transition-duration: 0.4s;
+    border-radius: 20%;
+}
+.instagram {
+    text-align: center;
+    width: 75px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 80%;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+#ig {
+    width: 60px;
+    margin-top: 5%;
+}
+.instagram:hover {
+    background: rgba(255,255,255, 0.5);
+    transition-duration: 0.4s;
+    border-radius: 20%;
+}
+
+@media (max-width: 2600px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 980px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2730px;
+        width: 100%;
+        height: 1600px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .container-inside-p1{
+        width: 70%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+    .footer {
+        position: absolute;
+        top: 6350px;
+        bottom: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: burlywood;
+    }
+}
+
+@media (max-width: 2400px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 960px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2690px;
+        width: 100%;
+        height: 1200px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .places-bio {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: -40px;
+        font-size: 22px;
+        margin-left: 20%;
+        margin-right: 20%;
+        opacity: 0.5;   
+    }
+    .container-inside-p1{
+        width: 70%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+    .text-container {
+        margin: auto;
+        width: 70%;
+        text-align: center;
+        background: none;
+        height: 100px;
+        margin-top: -90px;
+        font-family: 'Bree Serif', serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2590px;
+        width: 100%;
+        height: 1450px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
+
+@media (max-width: 2200px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 800px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2590px;
+        width: 100%;
+        height: 1500px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
+
+
+@media (max-width: 1920px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 720px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2500px;
+        width: 100%;
+        height: 1500px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .food1{
+        flex: 1;
+        margin: auto;
+        margin-left: 1200px;
+        margin-right: 20%;
+        text-align: center;
+        transform: scale(1);
+    }
+    .food2{
+        flex: 1;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 1200px;
+        text-align: center;
+        transform: scale(1);
+    }
+    .food3 {
+        flex: 1;
+        margin: auto;
+        margin-left: 25%;
+        text-align: center;
+        margin-right: 20%;
+        transform: scale(1);
+    }
+    .food4 {
+        flex: 1;
+        margin: auto;
+        margin-right: 25%;
+        text-align: center;
+        transform: scale(1);
+    }
+    .footer {
+        position: absolute;
+        top: 6200px;
+        bottom: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: burlywood;
+    }
+    #eatf {
+        position: absolute;
+        font-size: 70px;
+        color: white;
+        left: 560px;
+        top: -25px;
+    }
+    #venturef {
+        position: absolute;
+        top: 30px;
+        font-size: 70px;
+        color: white;
+        left: 260px;
+    }
+    #blackf {
+        position: absolute;
+        height: 150px;
+        top: 40px;
+        left: 630px;
+    }
+    #blackf2 {
+        position: absolute;
+        height: 150px;
+        width: 20px;
+        top: 40px;
+        left: 688px;
+    }
+    
+}
+
+@media (max-width: 1750px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 660px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2447px;
+        width: 100%;
+        height: 1500px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .food1{
+        flex: 1;
+        margin: auto;
+        margin-left: 1200px;
+        margin-right: 20%;
+        text-align: center;
+        transform: scale(0.9);
+    }
+    .food2{
+        flex: 1;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 1200px;
+        text-align: center;
+        transform: scale(0.9);
+    }
+    .food3 {
+        flex: 1;
+        margin: auto;
+        margin-left: 25%;
+        text-align: center;
+        margin-right: 20%;
+        transform: scale(0.9);
+    }
+    .food4 {
+        flex: 1;
+        margin: auto;
+        margin-right: 25%;
+        text-align: center;
+        transform: scale(0.9);
+    }
+    .footer {
+        position: absolute;
+        top: 6100px;
+        bottom: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: burlywood;
+    }
+    #eatf {
+        position: absolute;
+        font-size: 70px;
+        color: white;
+        left: 530px;
+        top: -25px;
+    }
+    #venturef {
+        position: absolute;
+        top: 30px;
+        font-size: 70px;
+        color: white;
+        left: 230px;
+    }
+    #blackf {
+        position: absolute;
+        height: 150px;
+        top: 40px;
+        left: 600px;
+    }
+    #blackf2 {
+        position: absolute;
+        height: 150px;
+        width: 20px;
+        top: 40px;
+        left: 658px;
+    }
+    
+}
+
+@media (max-width: 1600px) {
+    .bio {
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-left: 13.4%;
+    margin-top: 75px;
+    text-align: left;
+    font-size: 20px;
+    }
+    .twintext {
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        letter-spacing: 25px;
+        padding: 15px;
+        margin-left: 6%;
+        margin-right: 6%;
+        opacity: 0.5;
+    }
+    .twintext:hover {
+        color: black;
+        background-color: #F5F5DC;
+        font-size: 40px;
+        transform: scale(1.1);
+        transition-duration: 0.4s;
+    }
+    .subBio{
+        text-align: justify;
+        opacity: 0.6;
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-left: 13.4%;
+        line-height: 27px;
+        margin-right: 59%;
+    }   
+    .h1-b {
+        font-family: monospace;
+        letter-spacing: 5px;
+        text-align: left;
+        margin-left: 13.4%;
+        margin-top: -850px;
+        font-size: 18px;
+    
+    }
+    iframe {
+        text-align: right;
+        margin-left: 50%;
+        margin-top: -1000px;
+        margin-bottom: 50px;
+        transform: scale(0.8);
+    }
+    .container-black {
+        position: absolute;
+        left: 0px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: -900px;
+        width: 100%;
+        height: 550px;
+        background-color: black;
+    }
+    .container-places {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: -350px;
+        width: 100%;
+        height: 1939px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+    }
+    iframe:hover {
+        transform: scale(1.1);
+        transition-duration: 0.4s;  
+    }
+    .container-inside-p1{
+        width: 80%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 100px;
+    
+    }
+    .container-inside-p2{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 0px;
+        width: 80%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        margin: auto;
+    }
+    .container-inside-p3{
+        margin: auto;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background: none;
+        height: 600px;
+        margin-top: 475px;
+        font-family: 'Bree Serif', serif;
+        
+    }
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1690px;
+        width: 100%;
+        height: 580px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-inside-p1{
+        margin-top: 40px;
+        width: 1520px;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .container-inside-p2{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 0px;
+        width: 1520px;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        margin: auto;
+        text-align: center;
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2270px;
+        width: 100%;
+        height: 1600px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .food1{
+        flex: 1;
+        margin: auto;
+        margin-left: 1200px;
+        margin-right: 20%;
+        text-align: center;
+        transform: scale(0.8);
+    }
+    .food2{
+        flex: 1;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 1200px;
+        text-align: center;
+        transform: scale(0.8);
+    }
+    .food3 {
+        flex: 1;
+        margin: auto;
+        margin-left: 25%;
+        text-align: center;
+        margin-right: 20%;
+        transform: scale(0.8);
+    }
+    .food4 {
+        flex: 1;
+        margin: auto;
+        margin-right: 25%;
+        text-align: center;
+        transform: scale(0.8);
+    }
+    .footer {
+        position: absolute;
+        top: 6000px;
+        bottom: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: burlywood;
+    }
+    #eatf {
+        position: absolute;
+        font-size: 70px;
+        color: white;
+        left: 450px;
+        top: -25px;
+    }
+    #venturef {
+        position: absolute;
+        top: 30px;
+        font-size: 70px;
+        color: white;
+        left: 150px;
+    }
+    #blackf {
+        position: absolute;
+        height: 150px;
+        top: 40px;
+        left: 520px;
+    }
+    #blackf2 {
+        position: absolute;
+        height: 150px;
+        width: 20px;
+        top: 40px;
+        left: 579px;
+    }
+}
+@media (max-width: 1500px) {
+    .container-lomi {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1690px;
+        width: 100%;
+        height: 480px; 
+        background-image: url(img/lomiC.jpg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2160px;
+        width: 100%;
+        height: 1700px; 
+        background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .food1{
+        flex: 1;
+        margin: auto;
+        margin-left: 1200px;
+        margin-right: 10%;
+        text-align: center;
+        transform: scale(0.6);
+    }
+    .food2{
+        flex: 1;
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 1200px;
+        text-align: center;
+        transform: scale(0.6);
+    }
+    .food3 {
+        flex: 1;
+        margin: auto;
+        margin-left: 25%;
+        text-align: center;
+        margin-right: 10%;
+        transform: scale(0.6);
+    }
+    .food4 {
+        flex: 1;
+        margin: auto;
+        margin-right: 25%;
+        text-align: center;
+        transform: scale(0.6);
+    }
+    .food-container2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .footer {
+        position: absolute;
+        top: 5700px;
+        bottom: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: burlywood;
+    }
+    .box2{
+        text-align: center;
+        flex: 1;
+        margin-right: 20%;
+    }
+    .box4{
+        text-align: center;
+        flex: 1;
+        margin-right: 20%;
+    }
+    .box6 {
+        text-align: center;
+        flex: 1;
+        margin-right: 5%;
+    }
+}
