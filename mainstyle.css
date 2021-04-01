@@ -1292,19 +1292,123 @@ button:focus{
         width: 100%;
         background-color: burlywood;
     }
+    .container-inside-p2{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 0px;
+        width: 100%;
+        height: 470px; 
+        background: none;
+        display: inline-flex;
+        flex-wrap: flex;
+        font-family: 'Bree Serif', serif;
+        margin-left: 0%;
+        text-align: center;
+        justify-content: center;
+        gap: 12px;
+    }
+    .box3{
+        text-align: center;
+        flex: 1;
+    }
+    .box4{
+        flex: 1;
+        text-align: center;
+        margin-right: 0%;
+    }
     .box2{
         text-align: center;
         flex: 1;
-        margin-right: 20%;
+        margin-right: 0%;
     }
-    .box4{
+    .container-inside-p1{
+        margin-top: 20px;
+        width: 100%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
         text-align: center;
-        flex: 1;
-        margin-right: 20%;
+    
+    }
+    .container-inside-p3{
+        margin: auto;
+        display: flex;
+        flex-wrap: flex;
+        width: 100%;
+        text-align: center;
+        background: none;
+        height: 600px;
+        margin-top: 475px;
+        font-family: 'Bree Serif', serif;
     }
     .box6 {
+        flex: 1;
+        margin-right: 0%;
+    }
+}
+@media (max-width: 1400px) {
+    .container-inside-p2{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 0px;
+        width: 100%;
+        height: 470px; 
+        background: none;
+        display: inline-flex;
+        flex-wrap: flex;
+        font-family: 'Bree Serif', serif;
+        margin-left: 0%;
+        text-align: center;
+        justify-content: center;
+        gap: 12px;
+    }
+    .box3{
         text-align: center;
         flex: 1;
-        margin-right: 5%;
     }
+    .box4{
+        flex: 1;
+        text-align: center;
+        margin-right: 0%;
+    }
+    .box2{
+        text-align: center;
+        flex: 1;
+        margin-right: 0%;
+    }
+    .container-inside-p1{
+        margin-top: 20px;
+        width: 100%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .container-inside-p3{
+        margin: auto;
+        display: flex;
+        flex-wrap: flex;
+        width: 100%;
+        text-align: center;
+        background: none;
+        height: 600px;
+        margin-top: 475px;
+        font-family: 'Bree Serif', serif;
+    }
+    .box6 {
+        flex: 1;
+        margin-right: 0%;
+    }
+    
 }
